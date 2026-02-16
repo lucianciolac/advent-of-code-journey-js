@@ -2,6 +2,8 @@
 
 [![Node.js](https://img.shields.io/badge/node-%3E%3D%2020-brightgreen)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Lint](https://github.com/lucianciolac/advent-of-code-journey-js/actions/workflows/lint.yml/badge.svg)](https://github.com/lucianciolac/advent-of-code-journey-js/actions/workflows/lint.yml)
+[![Tests](https://github.com/lucianciolac/advent-of-code-journey-js/actions/workflows/tests.yml/badge.svg)](https://github.com/lucianciolac/advent-of-code-journey-js/actions/workflows/tests.yml)
 
 ## About
 
