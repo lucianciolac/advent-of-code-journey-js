@@ -1,0 +1,38 @@
+{
+  "name": "advent-of-code-journey-js",
+  "version": "0.0.1",
+  "description": "JavaScript Solutions for Advent Of Code",
+  "license": "MIT",
+  "author": "Lucian Ciolac",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "aoc:prepare": "node --env-file=.env ./scripts/prepare.js",
+    "run:all": "node ./scripts/run-all.js",
+    "run:day": "node ./scripts/run-day.js",
+    "test": "vitest run",
+    "start": "npm run run:all",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^17.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "3.7.4",
+    "vitest": "^4.0.17"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
