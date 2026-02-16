@@ -22,7 +22,7 @@ I use this repository to:
 
 ## Notes
 
-- Each solution is a **single-file Node.js program** that relies only on the **Node** and a **local input file**. All logic is **self-contained**, making the code easy to read without navigating across multiple files.
+- Each solution is a **single-file Node.js program** that relies only on **Node** and a **local input file**. All logic is **self-contained**, making the code easy to read without navigating across multiple files.
 - Follows **[Advent of Code 2025](https://adventofcode.com/2025/about)** sharing guidelines (no puzzle text, no personal inputs)
 
 ## Requirements
